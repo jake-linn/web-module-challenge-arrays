@@ -1,4 +1,7 @@
 /*REMEMBER TO RETURN ALL OF THE ANSWERS ON THESE TASKS, IF YOU DON'T, THE AUTOGRADER WILL NOT WORK*/
+let log = console.log;
+console. clear ();
+
 
 /* 👀 This is your data ⬇ */
 const originalFlavors = [
@@ -45,11 +48,7 @@ Use the copy function below to do the following:
     2. Return a copy of the received array  
 */
 
-function copy(/*your code here*/){
-    /*your code here*/
-}    
-
-
+log (originalFlavors)
 
 
 
@@ -58,15 +57,27 @@ Confirm that an array is exactly 31 flavors. Your function should accept:
     1. an array
     2. Check to see if the array given is 31 falvors
     3. Your function should return a boolean TRUE if the length of the array is 31 and FALSE if the length of the array is NOT 31.
-  
+
+
 
 For Example: is31Flavors(originalFlavors) will return true if your code is working properly
 */
 
 
-function is31Flavors(/*your code here*/){
-   /*your code here*/
+
+function is31Flavors (){
+if (originalFlavors.legnth === 31)
+{return true; 
 }
+else{
+    return false;
+}}
+
+
+
+   /*your code here*/
+
+/*
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Corporate has come to you with an idea for a new flavor: Rainbow Sherbert! They think this will be a game changer. You need to modify the array to include this flavor. 
@@ -81,8 +92,9 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(/*your code here*/){
-   /*your code here*/
+/*function addFlavor(originalFlavors){
+originalFlavors.push "Rainbow Sherbert"
+
 }
 
 
@@ -280,6 +292,8 @@ const regionalFlavors = [
 
 
 /* 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 */
+
+/* 
 function foo(){
     return 'bar';
 }
@@ -296,4 +310,4 @@ export default{
     getAverageWordLength,
     getRandomFlavors
 }
-
+*/
